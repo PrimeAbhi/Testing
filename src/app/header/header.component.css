@@ -1,0 +1,134 @@
+.header-img{
+    padding-left: 30px;
+}
+
+.header-logo{
+    color: #007bff !important;
+    font: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar-toggler{
+    float: right;
+}
+
+.closeicon, .linkItemA, .linkItemB, .linkItemC{
+    display: none;
+}
+
+.navbar-nav{
+    padding-right: 120px;
+}
+
+.linkA, .linkB, .linkC, .linkD, .linkE{
+    font-weight: 600;
+}
+
+
+.linkA a:hover, .linkB a:hover, .linkC a:hover, .linkD a:hover, .linkE a:hover{
+    text-decoration: underline;
+    color: #2d76b1;
+}
+
+
+.linkItemA .dropdown-item, .linkB .dropdown-item, .linkC .dropdown-item{
+    font: bold;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.header-text{
+    color: #007bff !important;
+    font: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.header-text:hover{
+    color:#437397
+}
+
+.dropbtn{
+    padding: 16px;
+    border: none;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    text-align: center;
+    background-color: #fff;
+    min-width: 150px;
+    box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 8px;
+    border-radius: 4px;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%,0);
+}
+
+.dropdown-content a{
+    color: black;
+    font-weight: 600;
+    padding: 12px 16px;
+    font: bold;
+    font-size: 13px;
+    text-decoration: none; 
+    display: block;
+}
+
+
+.caret-wrapper{
+    display: none;
+    left: 50%;
+    right: auto;
+    text-align: center;
+    transform: translate(-50%,0);
+    position: absolute;
+    z-index: 10;
+    margin-top: 1px;
+    min-width: 150px;
+}
+
+.caret{
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid white;
+    margin: auto;
+}
+
+.dropdown-content a:hover {color: #2d76b1;}
+
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    
+    border-top: 6px solid black;
+        margin-top: -10px;
+      margin-bottom: 8px;
+     margin-right:20px;
+  }
+  
+  @media(max-width:990px){
+  .first{
+  display:none;
+  }
+  }
+  @media(min-width:991px){
+      .second{
+          display: none !important;
+      }
+  }
+  

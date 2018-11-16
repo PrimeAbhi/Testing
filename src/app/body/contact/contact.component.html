@@ -1,0 +1,111 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-10 mx-auto text-center">
+      <h2 class="section-heading">Let's Get In Touch!</h2>
+      <hr class="my-4">
+      <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or
+        send us an email and we will get back to you as soon as possible!</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-5 ml-auto text-center">
+      <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
+      <p style="color:#007bff">123-456-6789</p>
+    </div>
+    <div class="col-lg-5 mr-auto text-center">
+      <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+      <p>
+        <a href="mailto:your-email@your-domain.com">Rajroopprint@gmail.com</a>
+      </p>
+    </div>
+  </div>
+  <br>
+</div>
+
+<div class="col-lg-8 mx-auto">
+  <h5 class="section-heading text-center">CONTACT US NOW !</h5>
+  <hr>
+  <div class="alert alert-danger" style="display:none" id="errorDiv">
+    <strong>Error!</strong>&nbsp;&nbsp;&nbsp;
+    <span id="errorMsg"></span>
+  </div>
+
+  <form>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="form_name">Firstname *</label>
+          <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *"
+            required="required" data-error="Firstname is required.">
+          <div class="help-block with-errors"></div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="form_lastname">Lastname *</label>
+          <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *"
+            required="required" data-error="Lastname is required.">
+          <div class="help-block with-errors"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="form_email">Email *</label>
+          <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *"
+            required="required" data-error="Valid email is required.">
+          <div class="help-block with-errors"></div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="form_phone">Phone</label>
+          <input id="form_phone" type="text" name="phone" class="form-control" placeholder="Please enter your phone">
+          <div class="help-block with-errors"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="form_name">Job Title</label>
+          <input id="form_name" type="text" name="jobTitle" class="form-control" placeholder="Please enter your job title">
+          <div class="help-block with-errors"></div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="form_lastname">Company Name</label>
+          <input id="form_lastname" type="text" name="companyName" class="form-control" placeholder="Please enter company name">
+          <div class="help-block with-errors"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="form-group">
+          <label for="form_message">Message *</label>
+          <textarea style="
+font-size:12px;" id="form_message" name="message" class="form-control" placeholder="Message for me *"
+            rows="4" required="required" data-error="Please,leave us a message."></textarea>
+          <div class="help-block with-errors"></div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <p style="float:left;font-size:12px" class="text-muted">
+          <strong>*</strong> These fields are required. </p>
+      </div>
+      <div class="col-md-6">
+        <input style="float:right; background:#2d76b1" type="button" class="btn btn-success btn-send" value="Send message"
+          onclick="return contactValidation()">
+      </div>
+
+    </div>
+    <br>
+    <div class="alert alert-success" style="display:none" id="successMsg">
+      <strong>Success!</strong> Thanks For Reaching us,we will get back to you soon.
+    </div>
+  </form>
+</div>
