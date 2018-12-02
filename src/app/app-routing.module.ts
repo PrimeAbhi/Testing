@@ -9,7 +9,7 @@ import { ContactComponent } from './body/contact/contact.component';
 const routes: Routes = [
     {
         path: '',
-        component: HomeComponent 
+        component: HomeComponent
     },
     {
         path: 'about',
@@ -33,4 +33,4 @@ const routes: Routes = [
     imports: [RouterModule.forRoot(routes)],
     exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }

@@ -19,7 +19,7 @@
   </div>
   <!-- Navbar Links -->
   <div class="collapse navbar-collapse first" id="collapsibleNavbar">
-    <ul class="navbar-nav ml-auto">
+    <ul class="navbar-nav firstNav ml-auto">
       <li class="nav-item">
         <a class="nav-link header-text" routerLink="/" style="padding: 0px 20px 0 20px">Home</a>
       </li>
@@ -33,8 +33,8 @@
           <div class="caret"></div>
         </div>
         <div class="dropdown-content">
-          <a class="dropdown-item" routerLink="about#1">COMPANY</a>
-          <a class="dropdown-item" href="#">LEADERSHIP</a>
+          <a class="dropdown-item" routerLink="/about" fragment="company">COMPANY</a>
+          <a class="dropdown-item" routerLink="/about" fragment="leadership">LEADERSHIP</a>
           <a class="dropdown-item" href="#">AWARDS</a>
           <a class="dropdown-item" href="#">MEMBERSHIPS</a>
           <a class="dropdown-item" href="#">CARRERS</a>
@@ -75,23 +75,24 @@
     </ul>
   </div>
 
+  <!--Navabar Link Small Screen Size-->
   <div class="collapse navbar-collapse second" id="collapsibleNavbar">
     <ul class="navbar-nav" style="padding-left: 30px;">
       <br>
-      <hr class="dropdown-divider">
+      <li class="divider"></li>
       <li class="nav-item linkD">
         <a class="nav-link" href="#">HOME</a>
       </li>
       <hr class="dropdown-divider">
       <li class="nav-item linkA">
-        <a class="nav-link" href="#">ABOUT
+        <a class="nav-link">ABOUT
           <div class="arrow-down ml-auto"></div>
         </a>
         <hr class="dropdown-divider">
         <div class="linkItemA">
-          <a class="dropdown-item" routerLink="about#1">COMPANY</a>
+          <a class="dropdown-item" routerLink="/about#1">COMPANY</a>
           <hr class="dropdown-divider">
-          <a class="dropdown-item" href="#">LEADERSHIP</a>
+          <a class="dropdown-item" routerLink="/about#2">LEADERSHIP</a>
           <hr class="dropdown-divider">
           <a class="dropdown-item" href="#">AWARDS</a>
           <hr class="dropdown-divider">
@@ -135,7 +136,7 @@
         </div>
       </li>
       <li class="nav-item linkE">
-        <a class="nav-link" href="#">CONTACT</a>
+        <a class="nav-link" routerLink="/contact">CONTACT</a>
       </li>
       <hr class="dropdown-divider">
     </ul>
