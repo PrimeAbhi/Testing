@@ -17,13 +17,13 @@
       <div class="col-sm-2">
         <h6>RajRoop Print </h6>
         <div class="nav-link row">
-          <a>Home</a>
+          <a routerLink='/'>Home</a>
         </div>
         <div class="nav-link row">
-          <a>Services</a>
+          <a [routerLink]="['/services']" fragment="promotional">Services</a>
         </div>
         <div class="nav-link row">
-          <a>Innovations</a>
+          <a [routerLink]="['/innovations']" fragment="inhabitable">Innovations</a>
         </div>
         <br>
       </div>
@@ -31,10 +31,10 @@
       <div class="col-sm-2">
         <h6>Comapny</h6>
         <div class="nav-link row">
-          <a>About</a>
+          <a [routerLink]="['/about']" fragment="company">About</a>
         </div>
         <div class="nav-link row">
-          <a>Contact</a>
+          <a [routerLink]="['/contact']" fragment="contact">Contact</a>
         </div>
         <br>
       </div>
@@ -85,9 +85,9 @@
           </h6>
           <hr class="dropdown-divider">
           <div class="linkItemA">
-            <a class="nav-link">Home</a>
-            <a class="nav-link">Services</a>
-            <a class="nav-link">Innovations</a>
+            <a class="nav-link" routerLink="">Home</a>
+            <a class="nav-link" [routerLink]="['/services']" fragment="promotional">Services</a>
+            <a class="nav-link" [routerLink]="['/innovations']" fragment="inhabitable">Innovations</a>
             <br>
           </div>
         </ul>
@@ -98,8 +98,8 @@
           </h6>
           <hr class="dropdown-divider">
           <div class="linkItemB">
-            <a class="nav-link">About</a>
-            <a class="nav-link">Contact</a>
+            <a class="nav-link" [routerLink]="['/about']" fragment="company">About</a>
+            <a class="nav-link" [routerLink]="['/contact']" fragment="contact">Contact</a>
             <br>
           </div>
         </ul>

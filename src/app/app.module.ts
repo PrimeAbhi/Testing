@@ -22,7 +22,7 @@ import { ContactComponent } from './body/contact/contact.component';
     AboutComponent,
     ServicesComponent,
     InnovationsComponent,
-    ContactComponent
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

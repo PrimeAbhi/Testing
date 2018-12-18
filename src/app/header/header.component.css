@@ -85,6 +85,9 @@
     display: block;
 }
 
+.linkColor{
+    color: black;
+}
 
 .caret-wrapper{
     display: none;

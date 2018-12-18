@@ -33,11 +33,11 @@
           <div class="caret"></div>
         </div>
         <div class="dropdown-content">
-          <a class="dropdown-item" routerLink="/about" fragment="company">COMPANY</a>
-          <a class="dropdown-item" routerLink="/about" fragment="leadership">LEADERSHIP</a>
-          <a class="dropdown-item" href="#">AWARDS</a>
-          <a class="dropdown-item" href="#">MEMBERSHIPS</a>
-          <a class="dropdown-item" href="#">CARRERS</a>
+          <a class="dropdown-item" [routerLink]="['/about']" fragment="company">COMPANY</a>
+          <a class="dropdown-item" [routerLink]="['/about']" fragment="leadership">LEADERSHIP</a>
+          <a class="dropdown-item" [routerLink]="['/about']" fragment="awards">AWARDS</a>
+          <a class="dropdown-item" [routerLink]="['/about']" fragment="acknowledgements">ACKNOWLEDGEMENTS</a>
+          <a class="dropdown-item" [routerLink]="['/about']" fragment="contactus">CARRERS</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -48,11 +48,10 @@
           <div class="caret"></div>
         </div>
         <div class="dropdown-content">
-          <a class="dropdown-item" href="#">PROMOTIONAL</a>
-          <a class="dropdown-item" href="#">PACKING</a>
-          <a class="dropdown-item" href="#">PRINT</a>
-          <a class="dropdown-item" href="#">CREATIVE</a>
-          <a class="dropdown-item" href="#">CARRERS</a>
+          <a class="dropdown-item" [routerLink]="['/services']" fragment="promotional">PROMOTIONAL</a>
+          <a class="dropdown-item" [routerLink]="['/services']" fragment="packingandprint">PACKING & PRINT</a>
+          <a class="dropdown-item" [routerLink]="['/services']" fragment="creative">CREATIVE</a>
+          <a class="dropdown-item" [routerLink]="['/services']" fragment="contactus">CARRERS</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -63,9 +62,10 @@
           <div class="caret"></div>
         </div>
         <div class="dropdown-content">
-          <a class="dropdown-item" href="#">INHABITABLE</a>
-          <a class="dropdown-item" href="#">MARKET VALUE</a>
-          <a class="dropdown-item" href="#">RESOURCES</a>
+          <a class="dropdown-item" [routerLink]="['/innovations']" fragment="innhabitable">INHABITABLE</a>
+          <a class="dropdown-item" [routerLink]="['/innovations']" fragment="marketvalue">MARKET VALUE</a>
+          <a class="dropdown-item" [routerLink]="['/innovations']" fragment="resources">RESOURCES</a>
+          <a class="dropdown-item" [routerLink]="['/innovations']" fragment="contactus">CONTACTUS</a>
         </div>
       </li>
 
@@ -81,7 +81,7 @@
       <br>
       <li class="divider"></li>
       <li class="nav-item linkD">
-        <a class="nav-link" href="#">HOME</a>
+        <a class="nav-link linkColor">HOME</a>
       </li>
       <hr class="dropdown-divider">
       <li class="nav-item linkA">
@@ -90,53 +90,53 @@
         </a>
         <hr class="dropdown-divider">
         <div class="linkItemA">
-          <a class="dropdown-item" routerLink="/about#1">COMPANY</a>
+          <a class="dropdown-item" [routerLink]="['/about']" fragment="company">COMPANY</a>
           <hr class="dropdown-divider">
-          <a class="dropdown-item" routerLink="/about#2">LEADERSHIP</a>
+          <a class="dropdown-item" [routerLink]="['/about']" fragment="leadership">LEADERSHIP</a>
           <hr class="dropdown-divider">
-          <a class="dropdown-item" href="#">AWARDS</a>
+          <a class="dropdown-item" [routerLink]="['/about']" fragment="awards">AWARDS</a>
           <hr class="dropdown-divider">
-          <a class="dropdown-item" href="#">MEMBERSHIPS</a>
+          <a class="dropdown-item" [routerLink]="['/about']" fragment="acknowledgements">ACKNOWLEDGEMENTS</a>
           <hr class="dropdown-divider">
-          <a class="dropdown-item" href="#">CARRERS</a>
+          <a class="dropdown-item" [routerLink]="['/about']" fragment="contactus">CARRERS</a>
           <hr class="dropdown-divider">
         </div>
       </li>
 
       <li class="nav-item linkB">
-        <a class="nav-link" href="#">SERVICES
+        <a class="nav-link">SERVICES
           <div class="arrow-down ml-auto"></div>
         </a>
         <hr class="dropdown-divider">
         <div class="linkItemB">
-          <a class="dropdown-item" routerLink="about#1">COMPANY</a>
+          <a class="dropdown-item" [routerLink]="['/services']" fragment="promotional">PROMOTIONAL</a>
           <hr class="dropdown-divider">
-          <a class="dropdown-item" href="#">LEADERSHIP</a>
+          <a class="dropdown-item" [routerLink]="['/services']" fragment="packingandprint">PACKING & PRINT</a>
           <hr class="dropdown-divider">
-          <a class="dropdown-item" href="#">AWARDS</a>
+          <a class="dropdown-item" [routerLink]="['/services']" fragment="creative">CREATIVE</a>
           <hr class="dropdown-divider">
-          <a class="dropdown-item" href="#">MEMBERSHIPS</a>
-          <hr class="dropdown-divider">
-          <a class="dropdown-item" href="#">CARRERS</a>
+          <a class="dropdown-item" [routerLink]="['/services']" fragment="contactus">CARRERS</a>
           <hr class="dropdown-divider">
         </div>
       </li>
       <li class="nav-item linkC">
-        <a class="nav-link" href="#">INNOVATIONS
+        <a class="nav-link">INNOVATIONS
           <div class="arrow-down ml-auto"></div>
         </a>
         <hr class="dropdown-divider">
         <div class="linkItemC">
-          <a class="dropdown-item" routerLink="about#1">INHABITABLE</a>
+          <a class="dropdown-item" [routerLink]="['/innovations']" fragment="innhabitable">INHABITABLE</a>
           <hr class="dropdown-divider">
-          <a class="dropdown-item" href="#">MARKET VALUE</a>
+          <a class="dropdown-item" [routerLink]="['/innovations']" fragment="marketvalue">MARKET VALUE</a>
           <hr class="dropdown-divider">
-          <a class="dropdown-item" href="#">RESOURCES</a>
+          <a class="dropdown-item" [routerLink]="['/innovations']" fragment="resources">RESOURCES</a>
+          <hr class="dropdown-divider">
+          <a class="dropdown-item" [routerLink]="['/innovations']" fragment="contactus">CONTACTUS</a>
           <hr class="dropdown-divider">
         </div>
       </li>
       <li class="nav-item linkE">
-        <a class="nav-link" routerLink="/contact">CONTACT</a>
+        <a class="nav-link linkColor" routerLink="contact">CONTACT</a>
       </li>
       <hr class="dropdown-divider">
     </ul>

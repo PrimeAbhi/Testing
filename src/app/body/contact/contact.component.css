@@ -1,3 +1,30 @@
 .form-group{
     font-weight: 600
 }
+p{
+    font-size: 15px;
+    color: rgba(0,0,0,.42);
+    font-weight: bold;
+    word-spacing: 4px;
+}
+h2{
+    padding: 30px 30px 0px 30px;
+}
+h4{
+        font-weight: bold;
+        text-align: center;
+}
+.mandatory{
+font-size: 12px;
+color: red;
+}
+.btn-send{
+    float: right;
+    background: #2d76b1;
+}
+.btn-send:hover{
+    background: #437397
+}
+.alert{
+    display: none;
+}

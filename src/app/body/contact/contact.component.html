@@ -1,12 +1,13 @@
 <div class="container">
   <div class="row">
-    <div class="col-lg-10 mx-auto text-center">
-      <h2 class="section-heading">Let's Get In Touch!</h2>
+    <div class="col-lg-10 mx-auto text-center" id="contact">
+      <h2>Let's Get In Touch!</h2>
       <hr class="my-4">
-      <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or
+      <p>Ready to start your next project with us? That's great! Give us a call or
         send us an email and we will get back to you as soon as possible!</p>
     </div>
   </div>
+  <br>
   <div class="row">
     <div class="col-lg-5 ml-auto text-center">
       <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
@@ -21,15 +22,15 @@
   </div>
   <br>
 </div>
-
+<br>
 <div class="col-lg-8 mx-auto">
-  <h5 class="section-heading text-center">CONTACT US NOW !</h5>
+  <h4>CONTACT US NOW !</h4>
   <hr>
-  <div class="alert alert-danger" style="display:none" id="errorDiv">
+  <div class="alert alert-danger" id="errorDiv">
     <strong>Error!</strong>&nbsp;&nbsp;&nbsp;
     <span id="errorMsg"></span>
   </div>
-
+  <br>
   <form>
     <div class="row">
       <div class="col-md-6">
@@ -94,17 +95,14 @@ font-size:12px;" id="form_message" name="message" class="form-control" placehold
       </div>
 
       <div class="col-md-6">
-        <p style="float:left;font-size:12px" class="text-muted">
-          <strong>*</strong> These fields are required. </p>
+        <p class="mandatory"><strong>*</strong> These fields are mandatory. </p>
       </div>
       <div class="col-md-6">
-        <input style="float:right; background:#2d76b1" type="button" class="btn btn-success btn-send" value="Send message"
-          onclick="return contactValidation()">
+        <input type="button" class="btn btn-primary btn-send" value="Send message" onclick="return contactValidation()">
       </div>
-
     </div>
     <br>
-    <div class="alert alert-success" style="display:none" id="successMsg">
+    <div class="alert alert-success" id="successMsg">
       <strong>Success!</strong> Thanks For Reaching us,we will get back to you soon.
     </div>
   </form>
