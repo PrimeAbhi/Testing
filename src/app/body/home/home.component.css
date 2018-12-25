@@ -1,0 +1,64 @@
+.container-fluid{
+    padding: 0px !important;
+}
+
+.section{
+    text-align: center;
+    padding: 60px 160px 0px 160px;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+#about{
+    background-image: url("../../../assets/home.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+#about>p{
+    color: #A8A4A2;
+}
+
+#services,#innovations{
+    background-color: #F8F9FA;
+}
+#servicebox{
+    padding: 60px 50px 0px 50px;
+}
+
+.divider{
+    width: 42px;
+    margin: 0 auto 21px auto;
+    height: 4px;
+    background: #2d76b1;
+}
+
+p{
+    text-justify: inter-word;
+    font-size: 15px;
+    color: rgba(0,0,0,.42);
+    font-weight: bold;
+    word-spacing: 4px;
+}
+
+
+.button, .btn{
+    font-weight: bold;
+    padding: 11px 20px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    background: rgba(0,0,0,.42);
+    color: white;
+    border: #437397 2px solid;
+}
+
+.button:hover, .btn:hover{
+    text-decoration: underline;
+    color: #437397;
+}
+
+h6{
+    font-weight: bold;
+    color: #437397;
+}

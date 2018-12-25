@@ -1,9 +1,9 @@
 .container-fluid{
     padding: 0px !important;
 }
-.image{
+.img{
     width: 100%;
-    height: 320px ;
+    height: 320px !important;
 }
 
 .section{
