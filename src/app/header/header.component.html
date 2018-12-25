@@ -48,6 +48,7 @@
           <div class="caret"></div>
         </div>
         <div class="dropdown-content">
+          <a class="dropdown-item" [routerLink]="['/services']" fragment="services">SERVICES</a>
           <a class="dropdown-item" [routerLink]="['/services']" fragment="promotional">PROMOTIONAL</a>
           <a class="dropdown-item" [routerLink]="['/services']" fragment="packingandprint">PACKING & PRINT</a>
           <a class="dropdown-item" [routerLink]="['/services']" fragment="creative">CREATIVE</a>
@@ -81,7 +82,7 @@
       <br>
       <li class="divider"></li>
       <li class="nav-item linkD">
-        <a class="nav-link linkColor">HOME</a>
+        <a class="nav-link linkColor" routerLink="/">HOME</a>
       </li>
       <hr class="dropdown-divider">
       <li class="nav-item linkA">
@@ -109,6 +110,8 @@
         </a>
         <hr class="dropdown-divider">
         <div class="linkItemB">
+          <a class="dropdown-item" [routerLink]="['/services']" fragment="services">SERVICES</a>
+          <hr class="dropdown-divider">
           <a class="dropdown-item" [routerLink]="['/services']" fragment="promotional">PROMOTIONAL</a>
           <hr class="dropdown-divider">
           <a class="dropdown-item" [routerLink]="['/services']" fragment="packingandprint">PACKING & PRINT</a>

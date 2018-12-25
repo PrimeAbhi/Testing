@@ -12,7 +12,7 @@
         <br> --We Believe
       </p>
       <br>
-      <a class="btn btn-primary" routerLink="about">Find Out More</a>
+      <a class="btn btn-primary" [routerLink]="['/about']" fragment="company">Find Out More</a>
     </div>
 
     <div class="section" id="services">
@@ -24,7 +24,7 @@
         <br> The single most important thing is to make people happy. If you are making people happy, as a side
         effect,
         they will be happy to open up their wallets and pay you.</p>
-      <a class="btn btn-primary" routerLink="services">Know more!</a>
+      <a class="btn btn-primary" [routerLink]="['/services']" fragment="services">Know more!</a>
     </div>
 
     <div class="section" id="servicebox">
@@ -97,14 +97,22 @@
     </div>
 
     <div class="section" id="innovations">
-      <h2 class="mb-4">Your Requirements,Our Innovations!</h2>
-      <a class="btn btn-light" [routerLink]="['/innovations']" fragment="innhabitable">Know more!</a>
+      <h2 class="mb-4">Your Requirements, Our Innovations!</h2>
+      <div class="divider"></div>
+      <a class="btn btn-light" [routerLink]="['/innovations']" fragment="inhabitable">Know more!</a>
     </div>
 
+
     <div class="section" id="contactus">
-      <h2>INNOVATION WITH PURPOSE</h2>
+      <h2>MEET OUR DEDICATED TEAM</h2>
       <div class="divider"></div>
-      <p class="text-muted mb-0">Unlock the value in your marketing execution</p>
+      <p class="text-muted text-center mb-0">Our professional team here at RR is ready to help you in any way we can
+        with your print management projects.</p>
+      <br>
+      <p class="text-muted mb-0">We have experienced designers, project managers, suppliers and buyers whose one goal
+        is to effectively manage your print project at the lowest cost and at the highest quality.</p>
+      <br>
+      <p class="text-muted text-center mb-0">Contact us today to meet us in person and Find out how we can help you.</p>
       <button class="button" [routerLink]="['/contact']" fragment="contact">CONTACT US</button>
     </div>
 

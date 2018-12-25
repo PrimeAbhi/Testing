@@ -3,7 +3,7 @@
 }
 img{
     width: 100%;
-    height: 400px ;
+    height: 450px ;
 }
 .section{
     text-align: center;
@@ -13,8 +13,8 @@ img{
     word-wrap: break-word;
 }
 .divider{
-    width: 42px;
-    margin: 0 auto 21px auto;
+    width: 60px;
+    margin: 0 auto 30px auto;
     height: 4px;
     background: #2d76b1;
 }
@@ -47,6 +47,7 @@ h6{
     margin-top: 20px;
     margin-bottom: 60px;
     background: rgba(0,0,0,.42);
+    color: #FFF;
     border: #437397 2px solid;
 }
 
